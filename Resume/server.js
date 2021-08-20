@@ -27,4 +27,4 @@ app.post("/submit", (req, res)=>{
 })
 
 
-app.listen(4000, ()=> console.log("listening in port 4000"));
+app.listen(process.env.PORT || 3000, ()=> console.log("listening in port 4000"));
