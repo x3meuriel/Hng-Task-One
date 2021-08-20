@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(cors());
 
 console.log(__dirname);
-app.use('/frontend', express.static(__dirname +'/frontend'));
+app.use('/', express.static(__dirname +'/frontend'));
 
 
 
