@@ -42,7 +42,7 @@ let submit = document.getElementById("submit");
 
 submit.addEventListener("click", (e)=>{
     e.preventDefault();
-   operation("post", "http://localhost:4000/submit", data)
+   operation("post", "https://aqueous-waters-40616.herokuapp.com/submit", data)
   }
 
 );
